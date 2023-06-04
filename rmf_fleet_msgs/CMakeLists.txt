@@ -17,6 +17,8 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
+  "msg/ActionMode.msg"
+  "msg/ActionRequest.msg"
   "msg/Location.msg"
   "msg/RobotMode.msg"
   "msg/RobotState.msg"
